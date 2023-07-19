@@ -28,4 +28,4 @@
 2.	Change the number of test records if needed (I have randomly selected 500 samples to test the network on)
 3.	Run this file and testing should take place 
 
-
+Disclaimer: Due to file size limitations, I could not upload the data to GitHub. If you would like access to the data, please feel free to contact me at fatwir@gmail.com, and I will be happy to provide it to you.
