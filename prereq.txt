@@ -1,0 +1,22 @@
+# Navigate to the folder where the WDFB package has been downlaoded
+cd "Path to the folder"
+
+# Unzip the tar file
+tar xfvz wfdb.tar.gz
+
+# Open the unzipped folder that will be named wfdb-10.6.2
+cd wfdb-10.6.2/
+
+# Installing the WFDB package
+./configure
+sudo make install
+make check
+
+# Navigate to the folder where the DataMiner.sh file is present
+cd "Path to the folder"
+
+# Run the DataMiner bash script
+bash DataMiner.sh
+
+# Run the DataCleaner bash script
+bash DataCleaner.sh
